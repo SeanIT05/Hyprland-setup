@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# Use neovim for vim when possible.
+command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
+
+# adds verbosity where we like it and shortens common commands.
+alias \
+	f="$FILE" \
+	e="$EDITOR" \
+	v="$EDITOR" \
+	anime="sh .local/share/ani-cli.sh"
+
+
+# adds color to commands.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi"
+
+# This alias is important. It enables the `pauseallmpv` command.
+alias mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)"
+
+# Some other stuff
+alias \
+	magit="nvim -c MagitOnly" \
+	ref="shortcuts >/dev/null; source ~/.config/shortcutrc"
+
+# Gentoo aliases
+alias \
+	update="sudo emerge --ask --newuse --update --deep @world" \
+	upgrade="sudo -avuDN @world" \
+	rr="cd /usr/src/linux && sudo make menuconfig"
+
