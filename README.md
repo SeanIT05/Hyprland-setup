@@ -1,7 +1,8 @@
 # Hyprland setup
 *I use this on gentoo but it should work on any linux distro afaik.*
 
-![image](https://hackmd.io/_uploads/S1LmOf7NC.jpg)
+![image](https://hackmd.io/_uploads/BysMnMXEC.png)
+
 
 To clone this repo, simply: `git clone https://github.com/SeanIT05/Hyprland-setup` into your `.config`
 
