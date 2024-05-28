@@ -1,7 +1,7 @@
-![](https://hackmd.io/_uploads/BysMnMXEC.png)
-
 # Hyprland setup
 *I use this on gentoo but it should work on any linux distro afaik.*
+
+![screenshot](https://hackmd.io/_uploads/BysMnMXEC.png)
 
 To clone this repo, simply: `git clone https://github.com/SeanIT05/Hyprland-setup` into your `.config`
 
