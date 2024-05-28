@@ -1,7 +1,7 @@
 # Hyprland setup
 *I use this on gentoo but it should work on any linux distro afaik.*
 
-![image](/screenshots/image.jpg)
+![ScreenShot](/screenshots/image.jpg)
 
 
 To clone this repo, simply: `git clone https://github.com/SeanIT05/Hyprland-setup` into your `.config`
